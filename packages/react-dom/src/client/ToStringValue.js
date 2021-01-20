@@ -13,6 +13,7 @@ export opaque type ToStringValue =
   | Object
   | string
   | null
+  | BigInt
   | void;
 
 // Flow does not allow string concatenation of most non-string types. To work
